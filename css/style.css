@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'varela round' , sans-serif   ;
+/* height: 100vh; */
+   }
+   .header{
+       width: 100%;
+       height: 70px; ;
+      background-color: rgb(241, 234, 234); 
+       position: fixed;
+       z-index: 5;
+   }
+
+
+   .header-content{
+display: flex;
+justify-content: space-between;
+   }
+
+/* .header .logo{
+    float: left;
+    background-color: rgb(182, 175, 175);
+} */
+    
+   .links{
+    display: flex;
+    list-style: none;
+   }
+   .links li a{
+     display: block;
+     min-width: 35;
+    padding: 27 0 0 70; 
+   }
+
+  /* header سكشن ال ////////////////////////////////////////////////// */
+   .welcome{
+    height: 100vh;
+    background-color: rgb(250, 246, 246);
+   }
+   .container{
+       width: 80%;
+       margin: auto;
+   }
+ .head-welcome{
+     text-align: center;
+ }
+ .parent-welcome{
+     /* height: 350; */
+     text-align: center;
+     /* overflow: hidden; */
+     /* overflow: auto; */
+ }
+ .title{
+     text-align: center;
+     padding-top: 100;
+ }
+  .line{
+      width: 60px;
+      height: 4px;
+      background-color:rgb(43, 43, 204) ;
+      display: block;
+      margin: auto;
+  }
+  .div1-welcome{
+      width: 30%;
+      height: 220;
+      border: 1px solid rgb(43, 43, 204);
+      padding: 30 15;
+      float:left ;
+      margin:100 15;
+  }
+  .div2-welcome{
+    width: 30%;
+    height: 220;
+    border: 1px solid rgb(43, 43, 204);
+    float:left ;
+    padding: 30 15;
+    margin: 100 15;
+
+}
+.div3-welcome{
+    width: 30%;
+    height: 220;
+    border: 1px solid rgb(43, 43, 204);
+    float:left ;
+    padding: 30 15;
+    margin: 100 15;
+    
+}
+.dives-welcome{
+    position: relative;
+}
+.dives-welcome::after{
+position: absolute;
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 1s;
+background-color: rgb(66, 55, 55);
+}
+.dives-welcome:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5; 
+    /* z-index: -1;  */
+}
+.clear{
+    clear: both;
+}
+  .title1-welcome{
+      text-align: center;
+  }
+  .paragraph-welcome{
+      letter-spacing: 2px;
+      line-height: 22px;
+      text-align: center;
+  }
+  
+  a {
+    margin: auto;
+      text-decoration: none;
+  }
+/*welcome section //////////////////////////////////////////////////////////////// */
+ .parcing{
+     background-color: rgb(231, 224, 224);
+     height: 100vh;
+ }
+.head-pricing{
+    text-align: center;
+}
+.parent-pricing{
+   
+    text-align: center;
+    overflow: hidden;
+    /* overflow: auto; */
+}
+.title{
+    text-align: center;
+    padding-top: 100;
+}
+.div1-pricing{
+    width: 200px;
+    height: 400px;
+    border: 2px solid rgb(175, 144, 144); 
+    background: rgb(245, 239, 239);
+    float: left;
+    margin-left: 90px;
+    
+  }
+  .div2-pricing{
+    width: 200px;
+    height: 400px;
+    border: 2px solid rgb(175, 144, 144); 
+    background: rgb(245, 239, 239);
+    float: left;
+    margin-left: 100px;
+    
+  }
+  .div3-pricing{
+    width: 200px;
+    height: 400px;
+    border: 2px solid rgb(175, 144, 144); 
+    background: rgb(245, 239, 239);
+    float: left;
+    margin-left: 100px;
+    
+  }
+ 
+  .circle-pricing{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(190, 171, 171);
+    margin: auto;
+    margin-top: 20;
+   text-align: center;
+  }
+  .p-pricing{
+    text-align:center ;
+    font: 14px;
+    color: rgb(36, 30, 30);
+    padding-top:10 ;
+  }
+  .rect-pricing{
+    width: 110px;
+    height: 20px;
+    margin: auto;
+    margin-top: 20;
+  text-align: center;
+    border: 2px solid rgb(196, 175, 175); 
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .h1-pricing{
+    text-align: center;
+   padding-top: 10;
+}
+.line-Pricing{
+    width: 100px;
+    height: 4px;
+    background: rgb(219, 201, 201);
+    margin: auto;
+    margin-top:6 ;
+
+}
+.sec-Pricing{
+    font-size: 20px;
+    padding-top: 6; 
+}
+.h4-pricing{
+    font-size: 12; 
+}
+
+.dives-pricing::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .7s;
+    background-color: rgb(66, 55, 55);
+    }
+    .dives-pricing{
+        position: relative;
+    }
+    .dives-pricing:hover::after{
+        width:100%;
+        height:100%;
+        opacity: .5; 
+       /* z-index: -1;   */
+    }
+/*pricing section ///////////////////////////////////////////////////////////////// */
+   .parent-ofer{
+    overflow: hidden;
+    position: relative;
+    
+   }
+.dives-ofer{
+        width: 27%;
+       height: 200px;
+        float: left;
+        margin: 40px 0 0 50px;
+        border: 1px solid #a8a8a8 ;
+        padding: 28px 13px 28px 65px;
+      
+    }
+    
+    /* .dives-ofer .icones{
+        position: absolute;
+        left:15px;
+        top:26px;
+        color:#6195ff;
+    } */
+
+
+    /* .div1-ofer .fa-solid{
+        position: absolute;
+        /* float: left; */
+        /* left:15px;
+        top:26px;
+        color:#6195ff;
+    } */ 
+
+    .title-ofer {
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        transition: 1s;
+    }
+
+    .p-ofer {
+     text-transform: capitalize;
+     margin-bottom: 15px;
+     line-height: 1.6;
+     color: #999;
+     }
+     /* .offer-item.ltr:hover .offer-item-title{
+         color: #fff;
+     } */
+     .icone{
+        color: rgb(104, 62, 62);
+     }
+     .fa-solid {
+      color: #6195ff;  
+     }
+/*ofer section ///////////////////////////////////////////////////////////////////  */
+  
+.services{
+    background-color: #f9f9f9;
+    margin-top: 300px;
+}
+.parent-services{
+    width:50%;
+    float:left;
+}
+.clear {
+    clear: both;
+}
+.parent-services .head-services{
+    text-align:left;
+}
+.parent-services .head-services.line{
+    margin: 0 0 45px 0;
+}
+.service-item-desc{
+    padding-right: 20px;
+    color:#999;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.list-services {
+    list-style: none;
+}
+.list-servicesli i {
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    padding: 3px;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+}
+.list-services li{
+    margin-bottom: 13px;
+    color:rgb(39, 34, 34);
+}
+.fa-fw{
+    background-color: #3f6fcf;
+}
+.mahmoud {
+    width: 380px;
+    height: 440px;
+}
+.bullets-services{
+    list-style: none;
+    text-align: center;
+}
+.bullets-services li{
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.bullets-services li.active{
+    background-color: #6195ff;
+}
+.bullets-services li:hover{
+    background-color: #6195ff;
+}
+/* services section /////////////////////////////////////////////////////////////////*
